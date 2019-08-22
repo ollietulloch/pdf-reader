@@ -5,6 +5,7 @@ require "bundler"
 Bundler.setup
 
 require 'pdf/reader'
+require 'pdf/acro_form_reader'
 require 'timeout'
 require 'singleton'
 require 'digest/md5'
